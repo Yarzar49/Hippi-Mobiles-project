@@ -1,0 +1,41 @@
+html{
+    scroll-behavior: smooth;
+}
+.fullscreen-landing{
+    background:url("images/view.jpg") center scroll;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;    
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.search-box{
+    height: 50px;
+    width: 400px;
+}
+
+@media screen and (max-width:480px) {
+    .search-box{
+        height: 30px;
+        width: 240px;   
+
+    }
+   
+}
+
+.subscribe-section{
+    background: white url("images/view.jpg") no-repeat scroll center;
+    background-size: cover;
+
+
+}
+
+.subscribe-overlay{
+
+}
